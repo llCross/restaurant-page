@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+
+.tab-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.body {
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: end;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.button-container {
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    align-items: end;
+}
+
+button {
+    height: 4rem;
+    width: 15rem;
+    border: none;
+    border-radius: 20px;
+    background-color: #e21b70;
+    color: white;
+    font-size: 2rem;
+}
+
+h1:hover,
+.tabs:hover {
+    color: #e21b70;
+    cursor: pointer;
+}
+
+.menu-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+img {
+    height: 15rem;
+    width: 15rem;
+}
+
+.food-card {
+    border-radius: 10px;
+    border: black 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
