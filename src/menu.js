@@ -1,3 +1,10 @@
+import './assets/cordon-bleu.png';
+import './assets/mojos.png';
+import './assets/pizza.png';
+import './assets/bakedmac.png';
+import './assets/sausage.png';
+import './assets/wings.png';
+
 export const renderMenuPage = () => {
     const content = document.querySelector('#content');
 
@@ -8,17 +15,17 @@ export const renderMenuPage = () => {
     menuBody.classList.add('menu-body');
 
     const imageOne = document.createElement('img');
-    imageOne.src = './src/assets/cordon-bleu.png';
+    imageOne.src = './assets/cordon-bleu.png';
     const imageTwo = document.createElement('img');
-    imageTwo.src = './src/assets/mojos.png';
+    imageTwo.src = './assets/mojos.png';
     const imageThree = document.createElement('img');
-    imageThree.src = './src/assets/pizza.png';
+    imageThree.src = './assets/pizza.png';
     const imageFour = document.createElement('img');
-    imageFour.src = './src/assets/bakedmac.png';
+    imageFour.src = './assets/bakedmac.png';
     const imageFive = document.createElement('img');
-    imageFive.src = './src/assets/sausage.png';
+    imageFive.src = './assets/sausage.png';
     const imageSix = document.createElement('img');
-    imageSix.src = './src/assets/wings.png';
+    imageSix.src = './assets/wings.png';
 
     const foodCardOne = document.createElement('div');
     foodCardOne.classList.add('food-card');
